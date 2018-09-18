@@ -7,6 +7,7 @@ Tensorflow-gpu 1.8.0
 tensorflow learning and using examples
 
 run command:
+```
 ps server:
 python example.py --job_name="ps" --task_index=0
 worker0:
@@ -15,3 +16,4 @@ worker1:
 python example.py --job_name="worker" --task_index=1
 worker2:
 python example.py --job_name="worker" --task_index=2
+```
