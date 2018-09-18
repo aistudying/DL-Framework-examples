@@ -1,12 +1,10 @@
-Environment
-CUDA9.0
-cuDNN7
-nccl2
-Tensorflow-gpu 1.8.0
-# tensorflow
-tensorflow learning and using examples
+#### Environment  
+CUDA9.0   
+cuDNN7  
+nccl2  
+Tensorflow-gpu 1.8.0  
 
-run command:
+#### run command:
 ```
 ps server:
 python example.py --job_name="ps" --task_index=0
