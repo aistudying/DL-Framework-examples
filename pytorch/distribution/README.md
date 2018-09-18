@@ -5,7 +5,7 @@ cuDNN7
 nccl2
 pytorch >= 0.4.0
 ```
-###MNIST Example
+MNIST Example
 Rank 0
 ```
 $ python3 main.py --init-method tcp://node01:23456 --rank 0 --world-size 3
