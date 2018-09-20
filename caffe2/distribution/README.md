@@ -62,7 +62,7 @@ cmake -DUSE_REDIS=ON ..
 make install -j 12
 ```
 
-###执行分布式程序
+### 执行分布式程序
 #### 节点0执行：
     python /usr/local/lib/python2.7/dist-packages/caffe2/python/examples/resnet50_trainer.py \
     --train_data /mnt/mnist_train_lmdb/ \
