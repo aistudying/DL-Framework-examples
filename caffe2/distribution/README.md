@@ -88,5 +88,5 @@ make install -j 12
     --run_id 0000 \
     --redis_host 192.168.100.11 \
     --redis_port 6379
-> 注：每次运行分布式程序时需要更换run_id,因为运行完后，redis会留有run_id信息,可以在redis服务器上使用``redis-cli``命令连接上redis数据库，使用``keys * `` 查询数据库中的key
+> 注：每次运行分布式程序时需要更换run_id,因为运行完后，redis会留有run_id信息,可以在redis服务器上使用``redis-cli``命令连接上redis数据库，使用``keys * `` 查询数据库中的key   
 > 另外lmdb格式的mnist数据集需要自己提前准备
